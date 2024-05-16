@@ -1,5 +1,5 @@
-def linear_search(arr,N,x):
-    for i in range(0,N):
+def linear_search(arr, N, x):
+    for i in range(0, N):
         if arr[i] == x:
             return i
     return -1
@@ -14,4 +14,3 @@ if __name__ == "__main__":
         print(f'{x} not present in the given array')
     else:
         print(f'{x} is present at index {result}')
-        
